@@ -4,7 +4,7 @@
 
 [![ACM SIGSpatial](https://img.shields.io/badge/ACM%20SIGSPATIAL'21-LibCity-orange)](https://dl.acm.org/doi/10.1145/3474717.3483923) [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/) [![Pytorch](https://img.shields.io/badge/Pytorch-1.7.1%2B-blue)](https://pytorch.org/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](./LICENSE.txt) [![star](https://img.shields.io/github/stars/LibCity/Bigscity-LibCity?style=social)](https://github.com/LibCity/Bigscity-LibCity/stargazers) [![fork](https://img.shields.io/github/forks/LibCity/Bigscity-LibCity?style=social)](https://github.com/LibCity/Bigscity-LibCity/network/members) 
 
-# LibCity（阡陌）
+# LibCity
 
 [HomePage](https://libcity.ai/) | [Docs](https://bigscity-libcity-docs.readthedocs.io/en/latest/index.html) | [Datasets](https://github.com/LibCity/Bigscity-LibCity-Datasets) | [Conference Paper](https://dl.acm.org/doi/10.1145/3474717.3483923) | [Full Paper](https://arxiv.org/abs/2304.14343) | [Paper List](https://github.com/LibCity/Bigscity-LibCity-Paper) | [Experiment Tool](https://github.com/LibCity/Bigscity-LibCity-WebTool) | [EA&B Track Paper](https://arxiv.org/abs/2308.12899) | [中文版](https://github.com/LibCity/Bigscity-LibCity/blob/master/readme_zh.md) 
 
@@ -54,8 +54,6 @@ LibCity currently supports the following tasks:
 **11/24/2021**: We provide some introductory tutorials (in Chinese) on Zhihu, [link1](https://zhuanlan.zhihu.com/p/401186930), [link2](https://zhuanlan.zhihu.com/p/400814990), [link3](https://zhuanlan.zhihu.com/p/400819354), [link4](https://zhuanlan.zhihu.com/p/400821482), [link5](https://zhuanlan.zhihu.com/p/401190615), [link6](https://zhuanlan.zhihu.com/p/436191860)....
 
 **11/10/2021**: We provide a document that describes in detail the format of the [atomic files](https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/data/atomic_files.html) defined by LibCity. You can download [English Version](https://libcity.ai/A-Unified-Storage-Format-of-Traffic-Data-Atomic-Files-in-LibCity.pdf) and [Chinese Version](https://libcity.ai/LibCity%E4%B8%AD%E4%BA%A4%E9%80%9A%E6%95%B0%E6%8D%AE%E7%BB%9F%E4%B8%80%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F-%E5%8E%9F%E5%AD%90%E6%96%87%E4%BB%B6.pdf) here for details.
-
-**11/07/2021**: We have a presentation on ACM SIGSPATIAL 2021 Local Track to introduce LibCity. You can download [LibCity Presentation Slide(Chinese)](https://libcity.ai/LibCity-城市时空预测深度学习开源平台.pdf) and [LibCity Chinese Tutorial](https://libcity.ai/LibCity-中文Tutorial.pptx) here.
 
 **11/07/2021**: We have a presentation on ACM SIGSPATIAL 2021 Main Track to introduce LibCity. Here are the [Presentation Video(English)](https://www.bilibili.com/video/BV19q4y1g7Rh/) and the [Presentation Slide(English)](https://libcity.ai/LibCity-Presentation.pdf).
 
@@ -126,26 +124,6 @@ In order to facilitate users to use LibCity, we provide users with some tutorial
 
 - We gave lectures on both ACM SIGSPATIAL 2021 Main Track and Local Track. For related lecture videos and Slides, please see our [HomePage](https://libcity.ai/#/tutorial) (in Chinese and English).
 - We provide entry-level tutorials (in Chinese and English) in the documentation.
-  - [Install and quick start](https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/install_quick_start.html)  & [安装和快速上手](https://bigscity-libcity-docs.readthedocs.io/zh_CN/latest/tutorial/install_quick_start.html)
-  - [Run an existing model in LibCity](https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/run_model.html) & [运行LibCity中已复现的模型](https://bigscity-libcity-docs.readthedocs.io/zh_CN/latest/tutorial/run_model.html)
-  - [Add a new model to LibCity](https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/add_model.html)  & [在LibCity中添加新模型](https://bigscity-libcity-docs.readthedocs.io/zh_CN/latest/tutorial/add_model.html)
-  - [Tuning the model with automatic tool](https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/hyper_tune.html) & [使用自动化工具调参](https://bigscity-libcity-docs.readthedocs.io/zh_CN/latest/tutorial/hyper_tune.html)
-  - [Visualize Atomic Files](https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/data_visualization.html) & [原子文件可视化](https://bigscity-libcity-docs.readthedocs.io/zh_CN/latest/tutorial/data_visualization.html)
-- In order to facilitate the use of domestic users in China, we provide an introductory tutorial (in Chinese) on Zhihu.
-  - [LibCity：一个统一、全面、可扩展的交通预测算法库](https://zhuanlan.zhihu.com/p/401186930)
-  - [LibCity入门教程（1）——安装与快速上手](https://zhuanlan.zhihu.com/p/400814990)
-  - [LibCity入门教程（2）——运行LibCity中已复现的模型](https://zhuanlan.zhihu.com/p/400819354)
-  - [LibCity入门教程（3）——在LibCity中添加新模型](https://zhuanlan.zhihu.com/p/400821482)
-  - [LibCity入门教程（4）—— 自动化调参工具](https://zhuanlan.zhihu.com/p/401190615)
-  - [北航BIGSCity课题组提出LibCity工具库：城市时空预测深度学习开源平台](https://zhuanlan.zhihu.com/p/436191860)
-
-## Contribution
-
-The LibCity is mainly developed and maintained by Beihang Interest Group on SmartCity ([BIGSCITY](https://www.bigcity.ai/)). The core developers of this library are [@aptx1231](https://github.com/aptx1231) and [@WenMellors](https://github.com/WenMellors). 
-
-Several co-developers have also participated in the reproduction of  the model, the list of contributions of which is presented in the [reproduction contribution list](./contribution_list.md).
-
-If you encounter a bug or have any suggestion, please contact us by [raising an issue](https://github.com/LibCity/Bigscity-LibCity/issues). You can also contact us by sending an email to bigscity@126.com.
 
 ## Cite
 
