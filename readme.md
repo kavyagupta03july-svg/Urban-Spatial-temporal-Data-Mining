@@ -4,8 +4,6 @@
 
 # LibCity
 
-[HomePage](https://libcity.ai/) | [Conference Paper](https://dl.acm.org/doi/10.1145/3474717.3483923) | [Full Paper](https://arxiv.org/abs/2304.14343) | [Paper List] | [Experiment Tool] | [EA&B Track Paper](https://arxiv.org/abs/2308.12899) |(https://github.com/LibCity/Bigscity-LibCity/blob/master/readme_zh.md) 
-
 LibCity is a unified, comprehensive, and extensible library, which provides researchers with a credible experimental tool and a convenient development framework in the traffic prediction field. Our library is implemented based on PyTorch and includes all the necessary steps or components related to traffic prediction into a systematic pipeline, allowing researchers to conduct comprehensive experiments. Our library will contribute to the standardization and reproducibility in the field of traffic prediction.
 
 LibCity currently supports the following tasks:
